@@ -1,0 +1,10 @@
+Testing GET https://download-videos-tiktok.p.rapidapi.com/video?url=https%3A%2F%2Fwww.tiktok.com%2F%40tiktok%2Fvideo%2F7106594312292453678
+Failed! Status: 404
+Testing GET https://download-videos-tiktok.p.rapidapi.com/?url=https%3A%2F%2Fwww.tiktok.com%2F%40tiktok%2Fvideo%2F7106594312292453678
+Failed! Status: 404
+Testing GET https://download-videos-tiktok.p.rapidapi.com/analyze?url=https%3A%2F%2Fwww.tiktok.com%2F%40tiktok%2Fvideo%2F7106594312292453678
+Failed! Status: 404
+Testing GET https://download-videos-tiktok.p.rapidapi.com/info?url=https%3A%2F%2Fwww.tiktok.com%2F%40tiktok%2Fvideo%2F7106594312292453678
+Failed! Status: 404
+Testing search API:
+Search API Failed! Status: 502

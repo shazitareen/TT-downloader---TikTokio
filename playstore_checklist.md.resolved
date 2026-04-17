@@ -1,0 +1,65 @@
+# 🛒 Final Play Store Upload Checklist — TTDownloader - TikTokio
+
+Follow these steps to successfully submit your app to the Google Play Console.
+
+## ✅ Pre-Upload Configuration (Completed)
+
+- [x] **Package Name**: Reverted to reach client requirement (`com.tiktokionet.myapp`).
+- [x] **App Label**: Reverted to `TTDownloader - TikTokio`.
+- [x] **ProGuard Rules**: Updated to protect the `com.tiktokionet.myapp` package.
+- [x] **Target SDK**: Configured at API 35 (Android 14+ compatible).
+- [x] **Code Structure**: `MainActivity.kt` moved to correct package directory.
+
+---
+
+## 🚀 Step 1: Generate Release Build
+
+1.  **Run Build Command**:
+    ```bash
+    flutter build appbundle --release
+    ```
+2.  **Verify Output**: Ensure the file exists at:
+    `build/app/outputs/bundle/release/app-release.aab`
+
+---
+
+## 🌍 Step 2: Store Listing Information
+
+Copy the content from [PLAY_STORE_LISTING.md](file:///d:/android%20projects/TT%20downloader%20-%20TikTokio/PLAY_STORE_LISTING.md) into the Google Play Console:
+- **App Name**: `TTDownloader - TikTokio`
+- **Short Description**: (See file)
+- **Full Description**: (See file)
+
+---
+
+## 🖼️ Step 3: Graphical Assets
+
+Prepare and upload the following:
+- [ ] **App Icon**: 512x512 PNG (Use `assets/images/logo updated 1.png`)
+- [ ] **Feature Graphic**: 1024x500 PNG
+- [ ] **Screenshots**: At least 4 Phone screenshots (Portrait).
+- [ ] **Privacy Policy URL**: Host the content of [PRIVACY_POLICY.md](file:///d:/android%20projects/TT%20downloader%20-%20TikTokio/PRIVACY_POLICY.md) on a public URL (e.g., GitHub Pages) and paste the link in the Console.
+
+---
+
+## 📝 Step 4: App Content & Tasks
+
+In the Play Console, complete these mandatory questionnaires:
+- [ ] **App Access**: All functionality is available without special access.
+- [ ] **Ads**: Declare if your app contains ads.
+- [ ] **Content Rating**: Complete the "Utility" questionnaire.
+- [ ] **Target Audience**: Select 13+ (or as per your regional law).
+- [ ] **Data Safety**: Declare that no user data is collected (refer to Privacy Policy).
+
+---
+
+## 📦 Step 5: Roll Out to Production
+
+1.  Create a new **Production Release**.
+2.  Upload the `.aab` file.
+3.  Add "Initial release" to the **Release Notes**.
+4.  Click **"Review release"** and then **"Start rollout to Production"**.
+
+---
+
+*Note: Initial reviews for new developer accounts can take 3-7 days. Check your email for status updates.*
